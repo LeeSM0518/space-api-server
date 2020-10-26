@@ -20,4 +20,10 @@ public class MemberController {
     return memberService.login(requestToLoginDto);
   }
 
+  @PostMapping("/signup")
+  public void signup(@RequestBody SignupDto signupDto) {
+    memberService.signUp(signupDto);
+  }
+
+
 }

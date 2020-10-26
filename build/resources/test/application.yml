@@ -9,7 +9,7 @@ spring:
     password: opXwqwWLpezpFQHX6OWFl3mQW1xf0VqH
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     properties:
       hibernate:
         format_sql: true
