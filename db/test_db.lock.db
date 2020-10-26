@@ -1,6 +1,6 @@
 #FileLock
-#Mon Oct 26 21:52:49 KST 2020
-server=192.168.10.146\:55289
+#Mon Oct 26 22:00:03 KST 2020
+server=192.168.10.146\:57185
 hostName=sangminbookpro2.localdomain
 method=file
-id=17564f7e7177bd62774bb9ea99215ace08d73ea9080
+id=17564fe86d6bae4690df1ab0f7bbbb0f68be138fa41
