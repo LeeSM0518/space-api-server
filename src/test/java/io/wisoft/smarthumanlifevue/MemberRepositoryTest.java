@@ -27,7 +27,6 @@
 //  @CsvSource({
 //      "nalsm98, 1234, 1998.05.18, 정보통신공학과, 010-7188-9608, nalsm0518@gmail.com, 안녕하세요!",
 //  })
-//  @Disabled
 //  @Rollback(value = false)
 //  public void signup(String username, String password, String birthday, String department,
 //                     String phone, String email, String introduction) throws Exception {
