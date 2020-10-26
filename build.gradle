@@ -27,6 +27,7 @@ dependencies {
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
     annotationProcessor 'org.projectlombok:lombok'
+    implementation 'org.postgresql:postgresql:42.2.11.jre7'
     implementation('com.google.code.gson:gson-parent:2.8.6')
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
