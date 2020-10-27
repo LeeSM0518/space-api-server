@@ -1,0 +1,4 @@
+io/wisoft/smarthumanlifevue/MemberRepositoryTest.java
+ io.wisoft.smarthumanlifevue.MemberRepositoryTest
+io/wisoft/smarthumanlifevue/MemberControllerTest.java
+ io.wisoft.smarthumanlifevue.MemberControllerTest
