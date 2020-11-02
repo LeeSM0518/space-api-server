@@ -21,7 +21,7 @@ public class MemberController {
   }
 
   @PostMapping("/signup")
-  public void signup(@RequestBody SignupDto signupDto) {
+  public void signup(@Valid @RequestBody SignupDto signupDto) {
     memberService.signUp(signupDto);
   }
 
