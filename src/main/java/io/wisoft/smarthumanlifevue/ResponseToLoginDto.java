@@ -14,13 +14,15 @@ import java.util.Date;
 @AllArgsConstructor
 public class ResponseToLoginDto {
 
-  private String birthday;
+  private String name;
   private String department;
-  private String phone;
   private String email;
+  private String birthday;
+  private String phone;
   private String introduction;
 
   public ResponseToLoginDto(Member member) {
+    this.name = member.getName();
     this.birthday = member.getBirthday();
     this.department = member.getDepartment();
     this.phone = member.getPhone();

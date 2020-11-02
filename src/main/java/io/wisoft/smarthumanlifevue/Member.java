@@ -22,6 +22,7 @@ public class Member {
   private Long id;
 
   private String username;
+  private String name;
   private String password;
   private String birthday;
   private String department;
@@ -29,9 +30,10 @@ public class Member {
   private String email;
   private String introduction;
 
-  public Member(String username, String password, String birthday, String department,
+  public Member(String username, String name, String password, String birthday, String department,
                 String phone, String email, String introduction) {
     this.username = username;
+    this.name = name;
     this.password = password;
     this.birthday = birthday;
     this.department = department;
@@ -43,6 +45,7 @@ public class Member {
   public static Member create(SignupDto signupDto) {
     return new Member(
         signupDto.getUsername(),
+        signupDto.getName(),
         signupDto.getPassword(),
         signupDto.getBirthday(),
         signupDto.getDepartment(),

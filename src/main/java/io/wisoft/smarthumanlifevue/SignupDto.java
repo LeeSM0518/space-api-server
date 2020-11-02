@@ -19,6 +19,8 @@ public class SignupDto {
 
   @NotBlank(message = "username is null!")
   private String username;
+  @NotBlank(message = "name is null!")
+  private String name;
   @NotBlank(message = "password is null!")
   private String password;
   @NotBlank(message = "birthday is null!")
