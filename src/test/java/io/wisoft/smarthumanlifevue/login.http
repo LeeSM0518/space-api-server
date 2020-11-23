@@ -3,6 +3,7 @@ Content-Type: application/json
 
 {
   "username": "nalsm98",
+  "name": "이상민",
   "password": "1234",
   "birthday": "1998.05.18",
   "department": "정보통신공학과",
